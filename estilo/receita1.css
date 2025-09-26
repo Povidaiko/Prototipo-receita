@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nomereceita {
+  margin: 8vh 65vh;
+  font-size: 4.5vh;
+  font-family: "Roboto", sans-serif;
+}
+
+#ingredientes {
+  margin: 2vh 20vh;
+  font-size: 3vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-principal {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.container-ingredientes {
+  flex: 1;
+}
+
+.container-imagem-e-tabela {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-imagem-e-tabela img {
+  max-width: 100%;
+  height: auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.tabela-nutricional {
+  width: 70%;
+}
+
+.tabela-nutricional table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.tabela-nutricional th,
+.tabela-nutricional td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabela-nutricional th {
+  background-color: #f2f2f2;
+}
+
+.detalhescalda {
+  margin: 4vh 20vh;
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.calda-detail {
+  margin-bottom: 3vh;
+  font-size: 2.5vh;
+}
+
+.detalhespudim {
+  margin: 4vh 20vh;
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.pudim-detail {
+  margin-bottom: 3vh;
+  font-size: 2, 5vh;
+}
+
+div#interface {
+  width: 75vh;
+  margin-left: 20vh;
+}
+
+#modopreparo {
+  margin: 2vh 20vh;
+  margin-top: 10vh;
+  font-size: 3vh;
+  font-family: "Roboto", sans-serif;
+  margin-top: -35vh;
+}
+
+.preparo {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  font-size: 2.5vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.strong1 {
+  margin: 4vh 0.5vh;
+  font-size: 2vh;
+}
+
+.prep1 {
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.prep2 {
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.image {
+  margin: 2vh;
+}

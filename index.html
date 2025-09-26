@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="estilo/style.css" />
+    <link rel="stylesheet" href="estilo/slider.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Protótipo Receitas</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html" id="marca"><b>RECEITAS</b></a>
+
+        <nav id="categoria">
+          <ul>
+            <li><a href="receita1.html">DOCES</a></li>
+            <li><a href="#exemplo2">MASSAS</a></li>
+            <li><a href="#exemplo3">CARNE</a></li>
+            <li><a href="#exemplo4">FRANGO</a></li>
+            <li><a href="#exemplo5">FRITOS</a></li>
+          </ul>
+        </nav>
+        <nav id="logar">
+          <ul>
+            <li><a href="#login">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--Começo do código do carrossel-->
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+
+        <div class="slide first">
+          <img src="./imagens/banner1.jpg" alt="img 1" />
+        </div>
+        <div class="slide">
+          <img src="./imagens/banner2.jpg" alt="img 2" />
+        </div>
+        <div class="slide">
+          <img src="./imagens/banner3.jpg" alt="img 3" />
+        </div>
+        <div class="slide">
+          <img src="./imagens/banner4.jpg" alt="img 4" />
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
+    <!--Fim do código de carrossel-->
+
+    <hr />
+    <br />
+    <br />
+    <br />
+
+    <h2 id="escrita-destaque">Destaques</h2>
+
+    <div class="destaque-principal">
+      <figure class="destaque1">
+        <img src="./imagens/imgprincpudim.avif" />
+        <figcaption>
+          <h3>Receita de pudim de leite condensado</h3>
+        </figcaption>
+      </figure>
+      <figure class="destaque2">
+        <img src="./imagens/tacos-de-carne.jpg" />
+        <figcaption>
+          <h3>Receita de tacos de carne</h3>
+        </figcaption>
+      </figure>
+      <figure class="destaque3">
+        <img src="./imagens/strogonoff.jpg" />
+        <figcaption>
+          <h3>Receita de strogonoff de frango</h3>
+        </figcaption>
+      </figure>
+    </div>
+
+    <br />
+
+    <script src="./java/script.js"></script>
+  </body>
+</html>
