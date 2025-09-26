@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="estilo/style.css" />
     <link rel="stylesheet" href="estilo/slider.css" />
+    <link rel="stylesheet" href="estilo/dropdown.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,24 +19,49 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <a href="index.html" id="marca"><b>RECEITAS</b></a>
-
-        <nav id="categoria">
-          <ul>
-            <li><a href="receita1.html">DOCES</a></li>
-            <li><a href="#exemplo2">MASSAS</a></li>
-            <li><a href="#exemplo3">CARNE</a></li>
-            <li><a href="#exemplo4">FRANGO</a></li>
-            <li><a href="#exemplo5">FRITOS</a></li>
-          </ul>
-        </nav>
-        <nav id="logar">
-          <ul>
-            <li><a href="#login">Login</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav>
+        <ul class="tomelapadas">
+          <div class="marca">
+            <a href="index.html">RECEITAS</a>
+          </div>
+          <li class="dropdown">
+            <a href="">DOCES</a>
+            <div class="dropdown-menu">
+              <a href="receita1.html">PUDIM</a>
+              <a href="">MOUSSE</a>
+              <a href="">BOLO</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="">MASSAS</a>
+            <div class="dropdown-menu">
+              <a href="">MACARRÃO</a>
+              <a href="">TORTA</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="">CARNES</a>
+            <div class="dropdown-menu">
+              <a href="">TACO</a>
+              <a href="">BOLO DE CARNE</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="">FRANGO</a>
+            <div class="dropdown-menu">
+              <a href="">STROGONOFF</a>
+              <a href="">GALINHADA</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="">FRITOS</a>
+            <div class="dropdown-menu">
+              <a href="">PASTEL</a>
+              <a href="">FRANGO EMPANADO</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!--Começo do código do carrossel-->
@@ -85,9 +111,9 @@
 
     <div class="destaque-principal">
       <figure class="destaque1">
-        <img src="./imagens/imgprincpudim.avif" />
+        <img href="receita1.html" src="./imagens/imgprincpudim.avif" />
         <figcaption>
-          <h3>Receita de pudim de leite condensado</h3>
+          <h3 href="receita1.html">Receita de pudim de leite condensado</h3>
         </figcaption>
       </figure>
       <figure class="destaque2">
@@ -103,8 +129,11 @@
         </figcaption>
       </figure>
     </div>
-
     <br />
+
+    <footer>
+      <a id="footbolas">Copyright&copy - Gabriel Povidaiko - 2025</a>
+    </footer>
 
     <script src="./java/script.js"></script>
   </body>
