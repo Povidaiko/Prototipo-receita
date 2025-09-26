@@ -118,3 +118,8 @@ footer {
   padding: 1vh 0;
   font-family: "Lexend Deca", sans-serif;
 }
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
